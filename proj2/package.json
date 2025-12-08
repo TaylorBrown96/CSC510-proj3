@@ -24,7 +24,7 @@
     "lint-fix": "concurrently \"bun lint-fix:backend\" \"bun lint-fix:frontend\"",
     "lint-fix:backend": "cd backend && uv run ruff check . --fix",
     "lint-fix:frontend": "cd frontend && bun run lint --fix",
-    "dev:backend": "cd backend && uv run fastapi dev src/eatsential/index.py",
+    "dev:backend": "cd backend && uv run uvicorn eatsential.index:app --reload",
     "dev:frontend": "cd frontend && bun run dev",
     "dev": "concurrently \"bun dev:backend\" \"bun dev:frontend\""
   },

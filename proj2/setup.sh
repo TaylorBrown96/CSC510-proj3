@@ -81,15 +81,19 @@ else
     exit 1
 fi
 
-# Check for Python
+# Check for Python (python3 OR python)
 if command_exists python3; then
-    PYTHON_VERSION=$(python3 --version | awk '{print $2}')
-    print_success "Python is installed (version: $PYTHON_VERSION)"
+    PYTHON_CMD="python3"
+elif command_exists python; then
+    PYTHON_CMD="python"
 else
     print_error "Python 3 is not installed"
     print_info "Please install Python 3.9 or later"
     exit 1
 fi
+
+PYTHON_VERSION=$($PYTHON_CMD --version | awk '{print $2}')
+print_success "Python is installed (version: $PYTHON_VERSION)"
 
 echo ""
 print_success "All prerequisites are satisfied!"
@@ -215,6 +219,26 @@ if uv run python scripts/db_initialize/create_init_database.py --seed; then
 else
     print_error "Failed to seed database"
     exit 1
+fi
+
+echo ""
+
+# Seed restaurants from Google Places
+print_info "Seeding restaurants from Google Places API..."
+if uv run python scripts/seed_restaurants.py; then
+    print_success "Restaurants seeded from Google Places"
+else
+    print_warning "Failed to seed restaurants (this may be due to API key issues - you can run manually later)"
+fi
+
+echo ""
+
+# Seed menu items from CSV data
+print_info "Seeding menu items from authentic menu data..."
+if uv run python scripts/seed_menus_from_csv.py 2>&1; then
+    print_success "Menu items seeded from CSV"
+else
+    print_warning "Failed to seed menu items from CSV (you can run manually later)"
 fi
 
 echo ""
