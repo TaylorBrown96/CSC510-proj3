@@ -39,17 +39,52 @@ class RecommendationRequest(BaseModel):
 
 
 class RecommendedItem(BaseModel):
-    """Single recommended menu item or restaurant with explanation."""
-
     model_config = ConfigDict(from_attributes=True)
 
     item_id: str
     name: str
     score: float = Field(ge=0.0, le=1.0)
     explanation: str
+    price: Optional[float] = None
+    calories: Optional[float] = None
+
+    # NEW FIELDS
+    restaurant_name: Optional[str] = None
+    restaurant_address: Optional[str] = None
+    restaurant_place_id: Optional[str] = None  # Google Places place_id for direct map lookup
 
 
 class RecommendationResponse(BaseModel):
     """Response payload returned by the recommendation endpoints."""
 
     items: List[RecommendedItem]
+
+
+# ============================================================================
+# Feedback Schemas
+# ============================================================================
+
+
+class FeedbackRequest(BaseModel):
+    """Request body for submitting recommendation feedback."""
+
+    item_id: str = Field(..., description="ID of the recommended item (meal or restaurant)")
+    item_type: Literal["meal", "restaurant"] = Field(
+        ..., description="Type of item: 'meal' or 'restaurant'"
+    )
+    feedback_type: Literal["like", "dislike"] = Field(
+        ..., description="Type of feedback: 'like' or 'dislike'"
+    )
+    notes: Optional[str] = Field(
+        default=None, description="Optional notes about the feedback"
+    )
+
+
+class FeedbackResponse(BaseModel):
+    """Response payload for feedback submission."""
+
+    id: str
+    item_id: str
+    item_type: str
+    feedback_type: str
+    created_at: str

@@ -1,0 +1,74 @@
+Unit Tests (9 tests) - test_recommendation_diversity.py
+These tests validate the _ensure_diverse_restaurants() algorithm in isolation:
+
+test_ensure_diverse_restaurants_basic
+
+Tests the basic diversity filtering with 3 restaurants (A, A, B, B, C)
+Verifies max 2 items per restaurant and proper interleaving (A→B→C→A→B order)
+test_ensure_diverse_restaurants_interleaving
+
+Validates round-robin interleaving with 2 restaurants
+Ensures pattern is A1→B1→A2→B2 (alternating restaurants)
+test_ensure_diverse_restaurants_single_restaurant
+
+Tests edge case where all 5 items are from the same restaurant
+Verifies it limits to 2 items (respects max_same_restaurant default)
+test_ensure_diverse_restaurants_custom_max
+
+Tests custom max_same_restaurant=1 parameter
+Ensures only 1 item returned when all items are from same restaurant
+test_ensure_diverse_restaurants_none_place_ids
+
+Handles items with None restaurant IDs gracefully
+Ensures algorithm doesn't crash with missing data
+test_ensure_diverse_restaurants_empty_list
+
+Edge case: empty input list returns empty output
+test_ensure_diverse_restaurants_single_item
+
+Edge case: single item input returns that single item
+test_ensure_diverse_restaurants_many_restaurants
+
+Tests with 10 items from 10 different restaurants
+Verifies all items are kept (perfect diversity)
+test_diversity_preserves_score_ordering_within_restaurant
+
+Validates that higher-scored items from same restaurant appear before lower-scored ones
+Ensures A(0.9) comes before A(0.7), and B(0.85) before B(0.6)
+Integration Tests (7 tests) - test_recommendation_diversity_integration.py
+These tests validate diversity through the full API stack:
+
+Diversity by Cuisine (4 tests)
+test_italian_recommendations_diversity_baseline
+
+Requests Italian cuisine recommendations in baseline mode
+Verifies at least 2 different restaurants in results
+Ensures diversity filtering works end-to-end
+test_mexican_recommendations_diversity_llm
+
+Requests Mexican cuisine with LLM mode enabled
+Confirms LLM mode also maintains diversity (≥2 restaurants)
+test_recommendations_with_multiple_cuisines
+
+Requests both Italian and Mexican separately
+Verifies each cuisine returns results
+Ensures Italian restaurants ≠ Mexican restaurants (no overlap)
+test_baseline_vs_llm_both_have_diversity
+
+Compares baseline and LLM modes for same cuisine (Italian)
+Confirms both modes produce diverse results (≥2 restaurants each)
+Response Quality (3 tests)
+test_all_recommendations_have_restaurant_data
+
+Validates every recommendation includes complete metadata:
+restaurant_name (not null)
+restaurant_address (present)
+restaurant_place_id (not null)
+test_recommendations_sorted_by_score
+
+Verifies recommendations maintain descending score order
+Ensures diversity doesn't break score-based ranking
+test_diversity_does_not_exclude_high_quality_items
+
+Confirms all recommendations have positive scores
+Ensures diversity filter doesn't accidentally filter out good items

@@ -157,11 +157,11 @@ export function QuickMealDrawer({ open, onOpenChange }: QuickMealDrawerProps) {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="mx-auto w-full space-y-4 overflow-y-auto px-4 sm:max-w-2xl"
+          className="mx-auto w-full space-y-3 overflow-y-auto px-4 sm:max-w-2xl"
         >
           {/* Meal Type and Time */}
-          <div className="grid gap-4 md:grid-cols-2">
-            <FieldGroup>
+          <div className="grid gap-3 md:grid-cols-2">
+            <FieldGroup className="gap-1">
               <FieldLabel>Meal Type</FieldLabel>
               <Field>
                 <Select
@@ -183,7 +183,7 @@ export function QuickMealDrawer({ open, onOpenChange }: QuickMealDrawerProps) {
               {errors.meal_type && <FieldError>{errors.meal_type.message}</FieldError>}
             </FieldGroup>
 
-            <FieldGroup>
+            <FieldGroup className="gap-1">
               <FieldLabel>Meal Time</FieldLabel>
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
                 <Popover open={isMealDateOpen} onOpenChange={setIsMealDateOpen}>
@@ -262,7 +262,7 @@ export function QuickMealDrawer({ open, onOpenChange }: QuickMealDrawerProps) {
           </div>
 
           {/* Food Item */}
-          <FieldGroup>
+          <FieldGroup className="gap-1">
             <FieldLabel>Food Name</FieldLabel>
             <Field>
               <Input {...register('food_name')} placeholder="e.g., Grilled Chicken Breast" />
@@ -271,8 +271,8 @@ export function QuickMealDrawer({ open, onOpenChange }: QuickMealDrawerProps) {
           </FieldGroup>
 
           {/* Portion */}
-          <div className="grid gap-4 md:grid-cols-2">
-            <FieldGroup>
+          <div className="grid gap-3 md:grid-cols-2">
+            <FieldGroup className="gap-1">
               <FieldLabel>Portion Size</FieldLabel>
               <Field>
                 <Input {...register('portion_size')} type="number" step="0.1" placeholder="1" />
@@ -280,7 +280,7 @@ export function QuickMealDrawer({ open, onOpenChange }: QuickMealDrawerProps) {
               {errors.portion_size && <FieldError>{errors.portion_size.message}</FieldError>}
             </FieldGroup>
 
-            <FieldGroup>
+            <FieldGroup className="gap-1">
               <FieldLabel>Unit</FieldLabel>
               <Field>
                 <Select
@@ -303,34 +303,39 @@ export function QuickMealDrawer({ open, onOpenChange }: QuickMealDrawerProps) {
             </FieldGroup>
           </div>
 
-          {/* Nutrition (Optional) */}
-          <div className="grid gap-4 md:grid-cols-2">
-            <FieldGroup>
-              <FieldLabel>Calories (optional)</FieldLabel>
+          {/* Nutrition Label */}
+          <div className="gap-1 text-center">
+            Nutrition Information per Portion (Optional)
+          </div>
+
+          {/* Nutrition*/}
+          <div className="grid gap-3 md:grid-cols-2">
+            <FieldGroup className="gap-1">
+              <FieldLabel>Calories</FieldLabel>
               <Field>
                 <Input {...register('calories')} type="number" step="1" placeholder="0" />
               </Field>
               {errors.calories && <FieldError>{errors.calories.message}</FieldError>}
             </FieldGroup>
 
-            <FieldGroup>
-              <FieldLabel>Protein (g) (optional)</FieldLabel>
+            <FieldGroup className="gap-1">
+              <FieldLabel>Protein (g)</FieldLabel>
               <Field>
                 <Input {...register('protein_g')} type="number" step="0.1" placeholder="0" />
               </Field>
               {errors.protein_g && <FieldError>{errors.protein_g.message}</FieldError>}
             </FieldGroup>
 
-            <FieldGroup>
-              <FieldLabel>Carbs (g) (optional)</FieldLabel>
+            <FieldGroup className="gap-1">
+              <FieldLabel>Carbs (g)</FieldLabel>
               <Field>
                 <Input {...register('carbs_g')} type="number" step="0.1" placeholder="0" />
               </Field>
               {errors.carbs_g && <FieldError>{errors.carbs_g.message}</FieldError>}
             </FieldGroup>
 
-            <FieldGroup>
-              <FieldLabel>Fat (g) (optional)</FieldLabel>
+            <FieldGroup className="gap-1">
+              <FieldLabel>Fat (g)</FieldLabel>
               <Field>
                 <Input {...register('fat_g')} type="number" step="0.1" placeholder="0" />
               </Field>
