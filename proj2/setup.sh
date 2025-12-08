@@ -217,6 +217,24 @@ else
     exit 1
 fi
 
+# Seed restaurants from Google Places
+print_info "Seeding restaurants from Google Places API..."
+if uv run python scripts/seed_restaurants.py; then
+    print_success "Restaurants seeded from Google Places"
+else
+    print_warning "Failed to seed restaurants (this may be due to API key issues - you can run manually later)"
+fi
+
+echo ""
+
+# Seed menu items from CSV data
+print_info "Seeding menu items from authentic menu data..."
+if uv run python scripts/seed_menus_from_csv.py 2>&1; then
+    print_success "Menu items seeded from CSV"
+else
+    print_warning "Failed to seed menu items from CSV (you can run manually later)"
+fi
+
 echo ""
 
 # Step 7: Final success message

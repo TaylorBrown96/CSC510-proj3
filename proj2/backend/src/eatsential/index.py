@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .middleware.jwt_auth import JWTAuthMiddleware
 from .middleware.rate_limit import RateLimitMiddleware
-from .routers import auth, chat, goals, health, meals, orders, recommend, users, wellness
+from .routers import auth, chat, goals, health, meals, recommend, users, wellness, maps, orders
 
 app = FastAPI()
 
@@ -37,6 +37,7 @@ app.include_router(orders.router, prefix="/api")
 app.include_router(goals.router, prefix="/api")
 app.include_router(recommend.router, prefix="/api")
 app.include_router(wellness.router, prefix="/api")
+app.include_router(maps.router, prefix="/api")
 app.include_router(chat.router, prefix="/api")
 
 

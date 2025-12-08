@@ -1,0 +1,451 @@
+name,description,calories,price,cusinetype
+Spaghetti Carbonara,Creamy pasta with pancetta and parmesan,650,14.99,Italian
+Margherita Pizza,"Tomato, fresh mozzarella, and basil on thin crust",720,12.99,Italian
+Lasagna Bolognese,Layered pasta with meat ragu and béchamel,780,15.99,Italian
+Fettuccine Alfredo,Rich cream sauce with parmesan over fettuccine,690,13.99,Italian
+Risotto ai Funghi,Creamy risotto with mixed mushrooms,560,14.49,Italian
+Penne all’Arrabbiata,Spicy tomato garlic sauce over penne,540,11.99,Italian
+Gnocchi al Pesto,Potato gnocchi tossed in basil pesto,590,13.49,Italian
+Chicken Parmigiana,Breaded chicken cutlet with marinara and cheese,760,16.99,Italian
+Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,640,14.49,Italian
+Tagliatelle al Ragu,Fresh pasta with slow-cooked beef ragu,710,16.49,Italian
+Bruschetta al Pomodoro,"Grilled bread with tomatoes, garlic, and basil",260,7.99,Italian
+Prosciutto e Melone,Cured ham served with sweet melon,320,9.99,Italian
+Caprese Salad,"Tomatoes, mozzarella, basil, and olive oil",310,10.49,Italian
+Seafood Linguine,"Linguine with shrimp, mussels, and clams",680,18.99,Italian
+Four Cheese Pizza,"Mozzarella, gorgonzola, fontina, and parmesan",790,14.99,Italian
+Calzone Classico,Folded pizza stuffed with cheese and salami,820,13.99,Italian
+Tortellini alla Panna,Cheese tortellini in cream sauce,710,14.49,Italian
+Pasta Primavera,Pasta with seasonal vegetables in light sauce,520,12.99,Italian
+Osso Buco,Braised veal shank with vegetables,690,21.99,Italian
+Polenta al Gorgonzola,Creamy polenta with blue cheese,480,11.49,Italian
+Arancini di Riso,Fried rice balls stuffed with cheese and ragu,430,9.99,Italian
+Pizza Diavola,Spicy salami pizza with chili flakes,770,13.99,Italian
+Ravioli di Ricotta e Spinaci,Ravioli stuffed with ricotta and spinach,620,14.99,Italian
+Minestrone Soup,Hearty vegetable and bean soup,280,8.99,Italian
+Panzanella Salad,Tuscan bread salad with tomatoes and cucumbers,350,9.49,Italian
+Bistecca alla Fiorentina,Grilled T-bone steak Florentine style,900,28.99,Italian
+Spaghetti alle Vongole,Spaghetti with clams in white wine sauce,590,17.99,Italian
+Risotto al Limone,Lemon-scented creamy risotto,520,13.99,Italian
+Pizza Quattro Stagioni,Four-season pizza with assorted toppings,780,15.49,Italian
+Tiramisu Cup,Classic coffee-soaked ladyfinger dessert,420,7.99,Italian
+Kung Pao Chicken,Spicy stir-fried chicken with peanuts and chilies,620,13.49,Chinese
+Sweet and Sour Pork,Crispy pork in sweet and tangy sauce,680,12.99,Chinese
+Beef and Broccoli,Stir-fried beef with broccoli in soy garlic sauce,560,13.99,Chinese
+Mapo Tofu,Spicy Sichuan tofu with minced pork,520,11.99,Chinese
+General Tso’s Chicken,Crispy chicken in sweet spicy glaze,700,13.99,Chinese
+Egg Fried Rice,Wok-fried rice with egg and vegetables,480,9.49,Chinese
+Vegetable Chow Mein,Stir-fried noodles with mixed vegetables,520,10.99,Chinese
+Shrimp Lo Mein,Soft noodles with shrimp and vegetables,610,13.49,Chinese
+Steamed Pork Dumplings,Juicy pork dumplings served with soy dip,360,8.99,Chinese
+Spring Rolls,Crispy rolls filled with vegetables,260,7.49,Chinese
+Hot and Sour Soup,Spicy and tangy soup with tofu and mushrooms,180,6.99,Chinese
+Wonton Soup,Light broth with pork wontons and greens,190,7.49,Chinese
+Orange Chicken,Battered chicken in orange citrus sauce,690,13.99,Chinese
+Beef Chow Fun,Wide rice noodles with beef and bean sprouts,640,14.49,Chinese
+Sichuan Dan Dan Noodles,Spicy noodles with minced pork and chili oil,620,12.99,Chinese
+Char Siu Pork,Roasted Cantonese barbecue pork,580,14.99,Chinese
+Chicken Fried Rice,Fried rice with chicken and peas,520,10.99,Chinese
+Ma Po Eggplant,Spicy eggplant with garlic and chilies,430,11.49,Chinese
+Twice-Cooked Pork,Pork belly stir-fried with peppers and leeks,650,14.49,Chinese
+Honey Walnut Shrimp,Crispy shrimp in sweet creamy sauce,670,16.49,Chinese
+Sesame Chicken,Crispy chicken coated in sesame sauce,710,13.99,Chinese
+Moo Shu Pork,Stir-fried pork and veggies with pancakes,600,14.49,Chinese
+Chicken with Cashew Nuts,Wok-seared chicken with cashews and veggies,580,13.49,Chinese
+Beef with Black Bean Sauce,Beef stir-fried with fermented black beans,610,14.49,Chinese
+Steamed Vegetable Dumplings,Light dumplings filled with greens,280,8.49,Chinese
+Scallion Pancakes,Crispy layered flatbread with scallions,320,7.99,Chinese
+Cantonese Roast Duck,Roast duck with crispy skin and spices,780,19.99,Chinese
+Salt and Pepper Squid,Crispy squid with chili and scallions,540,15.49,Chinese
+Chicken Chow Mein,Noodles stir-fried with chicken and cabbage,590,12.49,Chinese
+Fried Sesame Balls,Glutinous rice balls filled with sweet bean paste,320,6.99,Chinese
+Salmon Nigiri,Hand-formed sushi rice topped with fresh salmon,180,7.99,Japanese
+Tuna Sashimi Plate,Slices of raw tuna served with soy and wasabi,210,13.99,Japanese
+California Roll,"Crab, avocado, and cucumber sushi roll",260,8.99,Japanese
+Spicy Tuna Roll,Tuna mixed with chili mayo in a sushi roll,280,9.49,Japanese
+Tempura Udon,Thick noodles in broth with shrimp tempura,540,14.49,Japanese
+Chicken Katsu Curry,Breaded chicken cutlet with Japanese curry,780,15.99,Japanese
+Pork Tonkatsu,Crispy breaded pork cutlet with tonkatsu sauce,720,14.99,Japanese
+Yakisoba,Stir-fried noodles with vegetables and pork,560,12.99,Japanese
+Teriyaki Salmon,Grilled salmon glazed with teriyaki sauce,520,16.49,Japanese
+Chicken Teriyaki Bento,"Lunch box with rice, chicken, and pickles",680,15.49,Japanese
+Beef Gyudon,Rice bowl topped with simmered beef and onions,640,12.99,Japanese
+Unagi Don,Grilled eel over steamed rice,700,19.49,Japanese
+Shrimp Tempura Platter,Lightly battered fried shrimp and vegetables,590,15.99,Japanese
+Miso Ramen,Ramen noodles in miso-based broth with pork,730,14.99,Japanese
+Shoyu Ramen,Soy sauce broth ramen with chashu pork,710,14.49,Japanese
+Chicken Karaage,Japanese-style fried chicken bites,520,11.99,Japanese
+Okonomiyaki,Savory cabbage pancake with toppings,620,13.49,Japanese
+Takoyaki,Octopus-filled batter balls with sauce and bonito,380,9.49,Japanese
+Agedashi Tofu,Crispy fried tofu in dashi broth,290,8.99,Japanese
+Edamame Bowl,Steamed soybeans with sea salt,180,6.49,Japanese
+Gyoza Dumplings,Pan-fried pork and cabbage dumplings,340,8.99,Japanese
+Soba Noodle Salad,Buckwheat noodles with sesame dressing,420,11.49,Japanese
+Chirashi Sushi Bowl,Assorted sashimi over sushi rice,640,18.99,Japanese
+Salmon Poke Don,Marinated salmon cubes over rice,560,15.99,Japanese
+Tofu Teriyaki,Grilled tofu with teriyaki glaze and vegetables,440,11.99,Japanese
+Katsu Donburi,Pork cutlet and egg over steaming rice,710,13.99,Japanese
+Matcha Cheesecake Slice,Green tea flavored cheesecake,420,7.49,Japanese
+Green Tea Ice Cream,Creamy matcha ice cream scoop,210,5.49,Japanese
+Seaweed Salad,Marinated wakame seaweed with sesame,140,6.99,Japanese
+Salmon Skin Roll,Crispy salmon skin and cucumber roll,260,8.99,Japanese
+Chicken Tacos al Pastor,Marinated chicken tacos with pineapple,520,11.49,Mexican
+Carne Asada Burrito,"Grilled steak, rice, beans, and salsa in a tortilla",780,13.99,Mexican
+Chicken Quesadilla,Grilled tortilla with cheese and chicken,640,11.99,Mexican
+Beef Enchiladas,Corn tortillas stuffed with beef and chili sauce,720,12.99,Mexican
+Cheese Nachos Supreme,"Crispy chips with cheese, jalapeños, and salsa",690,10.99,Mexican
+Fish Tacos Baja Style,Crispy fish with cabbage and crema,560,12.49,Mexican
+Chicken Fajitas,Sizzling chicken strips with peppers and onions,700,15.49,Mexican
+Vegetarian Fajita Plate,Grilled vegetables with warm tortillas,580,13.49,Mexican
+Chiles Rellenos,Stuffed poblano peppers with cheese and sauce,640,13.99,Mexican
+Huevos Rancheros,Eggs over tortillas with ranchero sauce,520,10.49,Mexican
+Taco Salad Bowl,"Crispy shell filled with lettuce, beef, and beans",650,12.49,Mexican
+Chicken Tortilla Soup,Broth with shredded chicken and crispy strips,320,8.99,Mexican
+Steak Tostadas,Crispy tortillas topped with steak and beans,610,11.99,Mexican
+Guacamole and Chips,Fresh avocado dip with tortilla chips,420,9.49,Mexican
+Chicken Mole,Chicken in rich chocolate chili sauce,680,14.99,Mexican
+Beef Tamales,Steamed masa pockets stuffed with beef,540,11.49,Mexican
+Carnitas Plate,Slow-cooked shredded pork with rice and beans,760,14.49,Mexican
+Shrimp Ceviche Tostada,Citrus-marinated shrimp on crispy tortilla,340,12.99,Mexican
+Rice and Beans Side,Traditional Mexican rice with refried beans,320,6.99,Mexican
+Elote Street Corn,"Grilled corn with mayo, cheese, and chili",280,6.49,Mexican
+Chicken Tinga Tacos,Smoky chipotle shredded chicken tacos,540,11.49,Mexican
+Beef Taco Trio,Three hard-shell tacos with seasoned beef,580,10.99,Mexican
+Vegetable Burrito,"Grilled veggies, rice, and beans in tortilla",650,11.49,Mexican
+Churros with Chocolate,Cinnamon sugar fried dough sticks,430,7.49,Mexican
+Sopapillas with Honey,Fried pastry pillows drizzled with honey,390,6.99,Mexican
+Queso Fundido,Melted cheese dip with chorizo and tortillas,520,10.49,Mexican
+Chicken Pozole,Hearty hominy soup with shredded chicken,380,9.99,Mexican
+Beef Sopes,Thick corn cakes topped with beef and lettuce,560,11.49,Mexican
+Shrimp Fajitas,Sizzling shrimp with bell peppers and onions,690,16.49,Mexican
+Flan Caramel Custard,Traditional caramel-topped custard dessert,310,6.99,Mexican
+Butter Chicken,Creamy tomato-based curry with tender chicken,720,15.49,Indian
+Chicken Tikka Masala,Grilled chicken in spiced tomato sauce,700,15.99,Indian
+Palak Paneer,Spinach curry with cubes of paneer cheese,520,13.99,Indian
+Chana Masala,Spiced chickpea curry in tomato gravy,480,11.99,Indian
+Lamb Rogan Josh,Slow-cooked lamb in aromatic red curry,680,16.99,Indian
+Vegetable Biryani,Fragrant basmati rice with mixed vegetables,560,13.49,Indian
+Chicken Biryani,Spiced rice layered with marinated chicken,720,15.99,Indian
+Dal Tadka,Yellow lentils tempered with garlic and spices,420,10.99,Indian
+Paneer Butter Masala,Paneer cubes in rich butter tomato sauce,640,14.49,Indian
+Aloo Gobi,Stir-fried cauliflower and potatoes with spices,430,11.49,Indian
+Tandoori Chicken,Yogurt-marinated chicken roasted in tandoor,610,15.49,Indian
+Garlic Naan,Leavened flatbread topped with garlic and butter,260,4.49,Indian
+Plain Naan,Soft tandoor-baked white flour bread,220,3.99,Indian
+Lamb Vindaloo,Spicy and tangy lamb curry with potatoes,720,16.49,Indian
+Saag Lamb,Lamb simmered in spinach gravy,660,16.49,Indian
+Malai Kofta,Vegetable dumplings in creamy cashew sauce,640,14.49,Indian
+Bhindi Masala,Okra stir-fried with onions and spices,410,11.99,Indian
+Pani Puri Plate,Crispy shells filled with spicy tangy water,320,8.99,Indian
+Samosa Chaat,Crushed samosas topped with chickpeas and yogurt,450,9.99,Indian
+Onion Bhaji,Crispy onion fritters with chutney,380,7.99,Indian
+Masala Dosa,Crispy rice crepe stuffed with spiced potatoes,520,11.99,Indian
+Idli Sambar,Steamed rice cakes with lentil stew,380,9.99,Indian
+Chicken Korma,Mild creamy curry with nuts and spices,690,15.49,Indian
+Goan Fish Curry,Coconut-based spicy fish curry,630,15.99,Indian
+Jeera Rice,Basmati rice flavored with cumin seeds,260,4.99,Indian
+Gulab Jamun,Fried milk dumplings in sugar syrup,340,5.99,Indian
+Rasmalai,Soft cheese patties in sweet milk sauce,310,6.49,Indian
+Mango Lassi,Sweet yogurt drink blended with mango,250,4.99,Indian
+Tandoori Shrimp,Clay oven roasted shrimp with spices,520,17.49,Indian
+Veg Korma,Mixed vegetables in rich cashew gravy,600,13.99,Indian
+Pad Thai Chicken,Stir-fried rice noodles with chicken and peanuts,640,13.99,Thai
+Green Curry Chicken,Coconut green curry with bamboo shoots,620,14.49,Thai
+Red Curry Shrimp,Spicy red curry with shrimp and vegetables,610,15.49,Thai
+Massaman Beef Curry,"Mild curry with beef, potatoes, and peanuts",700,15.99,Thai
+Tom Yum Soup,Hot and sour soup with shrimp and lemongrass,220,9.49,Thai
+Tom Kha Gai,Coconut soup with chicken and galangal,260,9.99,Thai
+Pad See Ew,Wide rice noodles stir-fried with soy and broccoli,620,13.49,Thai
+Drunken Noodles,Spicy stir-fried noodles with basil and chilies,650,13.99,Thai
+Thai Basil Chicken,Ground chicken stir-fried with basil and chili,580,13.49,Thai
+Pineapple Fried Rice,"Fried rice with pineapple, cashews, and egg",560,12.99,Thai
+Papaya Salad Som Tum,Shredded green papaya salad with peanuts,280,10.49,Thai
+Crispy Spring Rolls,Fried rolls filled with glass noodles and veggies,260,7.99,Thai
+Chicken Satay Skewers,Grilled marinated chicken with peanut sauce,420,10.99,Thai
+Larb Gai Salad,Minced chicken salad with lime and mint,340,11.49,Thai
+Pad Kee Mao Seafood,Spicy noodles with mixed seafood,660,15.49,Thai
+Yellow Curry Vegetables,Coconut yellow curry with mixed vegetables,540,13.49,Thai
+Thai Fried Chicken,Crispy marinated chicken with dipping sauce,620,13.99,Thai
+Crispy Tofu with Chili Basil,Fried tofu tossed with basil and chilies,460,12.49,Thai
+Thai Beef Salad,"Grilled beef with herbs, lime, and chilies",480,13.99,Thai
+Mango Sticky Rice,Sweet sticky rice with fresh mango slices,420,8.99,Thai
+Thai Iced Tea,Sweet creamy black tea with spices,230,4.49,Thai
+Egg Fried Rice Thai Style,Fried rice with egg and fish sauce,520,11.49,Thai
+Panang Curry Chicken,Thick peanut curry with chicken and lime leaves,640,14.99,Thai
+Crispy Fish with Chili Sauce,Deep-fried fish topped with spicy chili sauce,710,17.49,Thai
+Glass Noodle Salad,Bean thread noodles with seafood and herbs,360,12.99,Thai
+Thai Omelette over Rice,Fluffy egg omelette served over jasmine rice,520,9.99,Thai
+Grilled Pork Skewers Moo Ping,Marinated pork skewers with sticky rice,580,12.99,Thai
+Pumpkin Red Curry,Red curry simmered with pumpkin and basil,540,13.49,Thai
+Fried Banana with Honey,Crispy banana fritters drizzled with honey,360,7.49,Thai
+Coconut Ice Cream,Homemade coconut milk ice cream scoop,250,5.49,Thai
+Pho Beef Bowl,Rice noodle soup with sliced beef and herbs,520,13.49,Vietnamese
+Pho Chicken Bowl,Chicken noodle soup with aromatic broth,480,12.99,Vietnamese
+Banh Mi Sandwich,"Crispy baguette with pork, pickles, and herbs",560,10.49,Vietnamese
+Fresh Spring Rolls,Rice paper rolls with shrimp and herbs,260,8.99,Vietnamese
+Fried Spring Rolls Cha Gio,Crispy rolls with minced pork and glass noodles,320,8.99,Vietnamese
+Bun Thit Nuong,Rice vermicelli with grilled pork and herbs,540,12.99,Vietnamese
+Bun Cha Hanoi,Grilled pork patties with vermicelli and herbs,580,13.49,Vietnamese
+Com Tam Broken Rice Pork,Broken rice with grilled pork chop and egg,640,13.49,Vietnamese
+Lemongrass Chicken,Grilled chicken marinated with lemongrass,520,12.99,Vietnamese
+Shaking Beef Bo Luc Lac,Seared beef cubes with pepper and greens,610,15.99,Vietnamese
+Crispy Fish with Dill,Fried fish fillets with dill and turmeric,580,15.49,Vietnamese
+Vegetarian Pho,Noodle soup with tofu and vegetables,440,12.49,Vietnamese
+Tofu Vermicelli Bowl,Rice noodles with fried tofu and herbs,460,11.99,Vietnamese
+Vietnamese Iced Coffee,Strong coffee with sweet condensed milk,210,4.99,Vietnamese
+Pandan Waffle,Crispy pandan-flavored waffle,330,6.49,Vietnamese
+Claypot Caramelized Fish,Fish braised in savory caramel sauce,560,14.49,Vietnamese
+Beef Banh Mi,Baguette with marinated grilled beef,580,10.99,Vietnamese
+Chicken Banh Mi,Baguette with shredded chicken and pickles,540,10.49,Vietnamese
+Grilled Shrimp Skewers,Shrimp marinated in garlic and lemongrass,320,12.99,Vietnamese
+Vietnamese Pork Meatballs,Savory pork meatballs with herbs,420,11.49,Vietnamese
+Goi Cuon Platter,Assorted fresh rolls with dipping sauces,340,12.49,Vietnamese
+Papaya Salad Vietnamese Style,Shredded green papaya with herbs and peanuts,260,9.99,Vietnamese
+Egg Coffee Cup,Frothy whipped egg over strong coffee,240,5.49,Vietnamese
+Sticky Rice with Mung Bean,Steamed sticky rice with mung bean paste,330,7.49,Vietnamese
+BBQ Pork Vermicelli,Noodles topped with barbecued pork slices,560,12.99,Vietnamese
+Coconut Tapioca Pudding,Tapioca pearls in sweet coconut milk,280,6.49,Vietnamese
+Garlic Morning Glory,Stir-fried water spinach with garlic,200,8.99,Vietnamese
+Vietnamese Chicken Wings,Fried wings glazed with fish sauce caramel,520,11.49,Vietnamese
+Rice Paper Pizza Banh Trang Nuong,Crispy grilled rice paper with toppings,340,9.49,Vietnamese
+Fried Banana with Sesame,Banana fritters coated with sesame seeds,360,7.49,Vietnamese
+Bibimbap Bowl,"Mixed rice with vegetables, beef, and gochujang",620,13.99,Korean
+Kimchi Jjigae,Spicy kimchi stew with pork and tofu,480,11.99,Korean
+Bulgogi Beef Plate,Marinated grilled beef slices with rice,640,15.49,Korean
+Galbi Short Ribs,Grilled marinated beef short ribs,780,19.49,Korean
+Japchae Noodles,Stir-fried glass noodles with vegetables,520,12.99,Korean
+Tteokbokki,Spicy rice cakes in chili sauce,540,11.49,Korean
+Kimchi Fried Rice,Fried rice with kimchi and egg,560,11.99,Korean
+Samgyeopsal Pork Belly,Grilled pork belly with lettuce wraps,760,17.49,Korean
+Korean Fried Chicken,Crispy double-fried chicken with sweet chili,720,15.49,Korean
+Soondubu Jjigae,Soft tofu stew with seafood and egg,460,12.99,Korean
+Haemul Pajeon,Seafood and scallion savory pancake,580,13.99,Korean
+Kimchi Pancake,Pan-fried pancake with kimchi pieces,520,11.99,Korean
+Gimbap Roll,Seaweed rice roll with vegetables and egg,420,8.99,Korean
+Spicy Cold Noodles Naengmyeon,Chewy noodles in cold spicy broth,480,12.49,Korean
+Jjajangmyeon,Noodles with black bean sauce and pork,640,12.99,Korean
+Rice Ball Jumeokbap,Seasoned rice balls with sesame and seaweed,260,7.49,Korean
+Odeng Fish Cake Soup,Skewered fish cakes in warm broth,300,9.49,Korean
+Kimbap Tuna Roll,Seaweed roll filled with tuna salad,440,9.49,Korean
+Spicy Pork Bulgogi,Stir-fried spicy marinated pork slices,650,14.49,Korean
+Dak Galbi,Spicy stir-fried chicken with cabbage,680,14.99,Korean
+Bean Sprout Soup,Light soup with soybean sprouts,120,6.99,Korean
+Bibim Naengmyeon,Cold mixed noodles with spicy sauce,500,12.49,Korean
+Cheese Tteokbokki,Rice cakes topped with melted cheese,610,12.49,Korean
+Spam Kimchi Fried Rice,Kimchi rice with spam cubes,600,11.99,Korean
+Corn Cheese Skillet,Baked corn and cheese appetizer,420,9.49,Korean
+Korean Egg Roll Gyeran Mari,Rolled omelette with vegetables,260,7.99,Korean
+Honey Butter Fried Chicken,Crispy chicken glazed with honey butter,730,15.99,Korean
+Sweet Red Bean Bungeoppang,Fish-shaped pastry filled with red bean,320,6.49,Korean
+Hotteok Sweet Pancake,Filled pancake with brown sugar and nuts,340,6.99,Korean
+Yuja Citrus Tea,Warm yuzu citrus marmalade tea drink,140,4.49,Korean
+Hummus with Pita,Chickpea dip with warm pita bread,380,8.99,Mediterranean
+Falafel Platter,Crispy chickpea fritters with tahini and salad,520,11.99,Mediterranean
+Chicken Shawarma Plate,Spiced roasted chicken with rice and salad,640,13.99,Mediterranean
+Beef Kofta Kebabs,Grilled minced beef skewers with herbs,620,14.49,Mediterranean
+Lamb Gyro Wrap,Sliced lamb in flatbread with tzatziki,590,11.99,Mediterranean
+Greek Salad,"Tomatoes, cucumber, olives, and feta",320,9.99,Mediterranean
+Tabbouleh Salad,"Parsley, bulgur, and tomato salad",260,8.99,Mediterranean
+Baba Ganoush,Smoky eggplant dip with olive oil,300,8.99,Mediterranean
+Stuffed Grape Leaves,Rice and herb stuffed grape leaves,260,8.49,Mediterranean
+Grilled Halloumi Cheese,Seared halloumi slices with lemon,340,10.49,Mediterranean
+Moussaka Slice,"Layered eggplant, potatoes, and ground meat",640,13.99,Mediterranean
+Chicken Souvlaki Skewers,Marinated chicken grilled on skewers,520,13.49,Mediterranean
+Lamb Souvlaki Plate,Grilled lamb skewers with lemon potatoes,680,16.49,Mediterranean
+Mediterranean Mezze Platter,"Assortment of dips, olives, and breads",620,16.99,Mediterranean
+Shakshuka Skillet,Eggs poached in spiced tomato sauce,420,11.49,Mediterranean
+Grilled Vegetable Platter,"Charred zucchini, peppers, and eggplant",380,12.49,Mediterranean
+Spinach Pie Spanakopita,Filo pastry with spinach and feta filling,420,9.99,Mediterranean
+Lentil Soup,Hearty lentil soup with olive oil and lemon,260,7.99,Mediterranean
+Chicken Pita Wrap,Grilled chicken with lettuce and tzatziki,520,10.99,Mediterranean
+Lamb Shawarma Wrap,Spiced lamb with garlic sauce in pita,610,12.49,Mediterranean
+Roasted Eggplant Salad,Charred eggplant with tomatoes and herbs,280,9.49,Mediterranean
+Couscous with Vegetables,Steamed couscous with roasted vegetables,460,11.49,Mediterranean
+Fattoush Salad,Toasted pita salad with sumac dressing,330,9.99,Mediterranean
+Grilled Salmon with Herbed Couscous,Salmon fillet over lemon couscous,580,17.49,Mediterranean
+Olive Tapenade Toasts,Crusty bread topped with olive spread,260,8.49,Mediterranean
+Baklava Triangle,Layered filo pastry with nuts and honey,380,6.99,Mediterranean
+Kebap Rice Bowl,Grilled meat over rice with yogurt sauce,640,13.99,Mediterranean
+Roasted Chickpea Bowl,Spiced chickpeas with tomato and cucumber,420,11.49,Mediterranean
+Tomato and Feta Bruschetta,Toasted bread with tomato and feta,300,8.99,Mediterranean
+Stuffed Bell Peppers,Peppers filled with rice and herbs,460,11.99,Mediterranean
+Classic Cheeseburger,Grilled beef patty with cheese and pickles,780,12.49,American
+Bacon Double Burger,Double beef patties with bacon and cheese,980,14.99,American
+BBQ Pulled Pork Sandwich,Slow-cooked pork on a toasted bun,740,12.99,American
+Grilled Chicken Sandwich,Marinated grilled chicken with lettuce,620,11.49,American
+Buffalo Chicken Wings,Spicy wings served with blue cheese dip,680,13.49,American
+Caesar Salad with Chicken,Romaine salad with grilled chicken and croutons,520,11.99,American
+House Garden Salad,Mixed greens with tomato and cucumber,260,8.49,American
+Mac and Cheese Bowl,Creamy baked macaroni with cheddar,640,10.99,American
+BBQ Ribs Half Rack,Slow-smoked pork ribs with barbecue glaze,860,18.99,American
+Fried Chicken Basket,Crispy fried chicken pieces and fries,820,14.49,American
+Chicken Tenders Meal,Breaded chicken strips with dipping sauce,720,11.99,American
+Philly Cheesesteak,Sliced beef with onions and melted provolone,790,13.49,American
+Chili Cheese Fries,French fries topped with chili and cheese,680,9.99,American
+Loaded Baked Potato,"Baked potato with cheese, bacon, and sour cream",520,8.99,American
+New York Strip Steak,Grilled strip steak with herb butter,880,24.99,American
+Fried Catfish Plate,Cornmeal-breaded catfish with tartar sauce,760,16.49,American
+Turkey Club Sandwich,Triple-decker sandwich with turkey and bacon,640,12.49,American
+Grilled Cheese Sandwich,Melted cheese between toasted bread,520,7.99,American
+Tomato Basil Soup,Creamy tomato soup with basil,280,7.49,American
+Chicken Noodle Soup,"Broth with chicken, noodles, and vegetables",260,7.49,American
+Buttermilk Pancake Stack,Fluffy pancakes with maple syrup,620,9.99,American
+Chicken and Waffles,Crispy chicken over Belgian waffle,840,14.99,American
+Apple Pie Slice,Classic apple pie with cinnamon,380,6.49,American
+Chocolate Brownie Sundae,Warm brownie with ice cream and fudge,520,7.99,American
+Onion Rings Basket,Beer-battered onion rings,460,7.99,American
+Cobb Salad,"Salad with chicken, bacon, egg, and blue cheese",540,12.49,American
+BBQ Chicken Pizza,Pizza topped with barbecue chicken and onions,780,13.99,American
+Veggie Burger,Grilled vegetable patty with toppings,640,11.49,American
+Classic Hot Dog,Beef hot dog with mustard and relish,420,6.99,American
+Strawberry Milkshake,Thick milkshake with strawberries and cream,430,5.99,American
+Coq au Vin,Chicken braised in red wine with mushrooms,640,19.49,French
+Boeuf Bourguignon,Beef stewed in red wine with vegetables,720,21.99,French
+Ratatouille,"Stewed eggplant, zucchini, and peppers",380,13.49,French
+Quiche Lorraine,Savory tart with bacon and cheese,520,11.99,French
+Croque Monsieur,Grilled ham and cheese sandwich with béchamel,580,12.49,French
+Nicoise Salad,"Tuna salad with olives, egg, and green beans",460,13.99,French
+French Onion Soup,Caramelized onion soup with cheese toast,380,9.99,French
+Duck Confit,Slow-cooked duck leg with crispy skin,690,22.49,French
+Steak Frites,Grilled steak with crispy fries,820,23.99,French
+Salmon en Papillote,Salmon baked in parchment with herbs,540,19.49,French
+Moules Marinières,Mussels steamed in white wine and garlic,420,17.49,French
+Rillettes de Porc,Shredded pork spread with bread,460,12.49,French
+Cheese Plate Selection,Assorted French cheeses with fruit,520,17.99,French
+Poulet Rôti,Herb-roasted half chicken,640,18.99,French
+Pommes Frites,Classic thin-cut French fries,360,6.99,French
+Gratin Dauphinois,Creamy baked potatoes with cheese,520,9.99,French
+Salade de Chèvre Chaud,Green salad with warm goat cheese toasts,420,13.49,French
+Bouillabaisse,Provencal fish stew with saffron,580,22.99,French
+Tarte Tatin,Caramelized upside-down apple tart slice,380,7.49,French
+Crème Brûlée,Vanilla custard topped with caramelized sugar,320,7.99,French
+Chocolate Mousse,Rich dark chocolate whipped mousse,310,7.49,French
+Macaron Trio,Three assorted almond meringue cookies,260,6.99,French
+Pain au Chocolat,Buttery pastry filled with chocolate,320,4.99,French
+Baguette with Butter,Warm crusty baguette and salted butter,260,4.49,French
+Salade Lyonnaise,Frisée salad with bacon and poached egg,420,12.99,French
+Croissant Sandwich Ham and Cheese,Flaky croissant filled with ham and cheese,540,9.99,French
+Duck Pâté Toasts,Rustic duck pâté on toasted bread,380,11.49,French
+Rump Steak with Shallot Butter,Pan-seared steak with shallot butter sauce,780,22.49,French
+Profiteroles,Cream puffs filled with ice cream and chocolate,420,8.49,French
+Clafoutis aux Cerises,Baked custard dessert with cherries,340,7.49,French
+Seafood Paella,"Saffron rice with shrimp, mussels, and squid",720,19.99,Spanish
+Chicken and Chorizo Paella,Paella with chicken thighs and chorizo,740,18.99,Spanish
+Patatas Bravas,Fried potatoes with spicy tomato sauce,420,8.99,Spanish
+Tortilla Española,Spanish omelette with potatoes and onions,380,9.49,Spanish
+Gambas al Ajillo,Shrimp sautéed with garlic and olive oil,420,14.99,Spanish
+Jamón Ibérico Plate,Thin slices of cured Iberian ham,360,18.99,Spanish
+Pan con Tomate,Toasted bread rubbed with tomato and olive oil,260,7.49,Spanish
+Croquetas de Jamón,Crispy croquettes filled with ham,380,9.99,Spanish
+Albóndigas Meatballs,Spanish-style meatballs in tomato sauce,460,11.49,Spanish
+Pulpo a la Gallega,Octopus with paprika and potatoes,520,17.99,Spanish
+Calamares Fritos,Fried calamari rings with lemon,480,12.49,Spanish
+Ensalada Mixta,"Mixed salad with tuna, egg, and olives",320,9.99,Spanish
+Bacalao a la Vizcaína,Salt cod in red pepper sauce,540,17.49,Spanish
+Pimientos de Padrón,Fried green peppers with sea salt,260,8.99,Spanish
+Boquerones en Vinagre,Marinated anchovies in vinegar and garlic,220,10.49,Spanish
+Fabada Asturiana,White bean stew with sausage and pork,680,15.99,Spanish
+Huevos Rotos,Broken eggs over fried potatoes and ham,620,12.99,Spanish
+Empanadas Gallegas,Baked pastry filled with tuna and peppers,420,10.99,Spanish
+Chipirones a la Plancha,Grilled baby squid with olive oil,420,16.49,Spanish
+Pa amb Oli,"Rustic bread with olive oil, tomato, and cheese",320,9.49,Spanish
+Crema Catalana,Custard dessert with caramelized sugar,310,7.49,Spanish
+Churros con Chocolate,Fried dough sticks with hot chocolate,430,7.99,Spanish
+Tarta de Santiago,Almond cake slice dusted with sugar,340,7.49,Spanish
+Gazpacho Andaluz,Chilled tomato and vegetable soup,180,8.49,Spanish
+Salmorejo Cordobés,Thick chilled tomato soup with ham and egg,260,8.99,Spanish
+Arroz Negro,Black rice with squid ink and seafood,690,18.99,Spanish
+Pinchos Morunos,Spiced grilled meat skewers,520,13.99,Spanish
+Montaditos Assortment,Small open-faced sandwiches with toppings,420,11.99,Spanish
+Caldo Gallego,Galician soup with greens and beans,280,9.49,Spanish
+Tigres Stuffed Mussels,Breaded stuffed mussels baked with sauce,360,10.99,Spanish
+Chicken Gyro Plate,"Sliced chicken with pita, salad, and tzatziki",620,13.49,Greek
+Lamb Gyro Pita,Lamb slices wrapped in pita with tzatziki,590,11.99,Greek
+Greek Village Salad,"Tomatoes, cucumber, olives, and feta cheese",320,9.99,Greek
+Moussaka,Baked eggplant and meat casserole with béchamel,640,14.49,Greek
+Pastitsio,Greek baked pasta with ground beef and béchamel,680,13.99,Greek
+Saganaki Cheese,Pan-fried kefalotyri cheese with lemon,420,10.49,Greek
+Dolmades,Grape leaves stuffed with rice and herbs,280,8.99,Greek
+Tzatziki Dip with Pita,Yogurt cucumber dip with warm pita bread,260,7.99,Greek
+Feta and Olive Platter,Marinated feta cheese with olives and herbs,320,9.99,Greek
+Lamb Kleftiko,Slow-roasted lamb with garlic and herbs,720,19.99,Greek
+Chicken Souvlaki Wrap,Skewered chicken pieces in pita,540,10.99,Greek
+Lentil Soup Greek Style,Hearty lentil soup with olive oil,260,7.99,Greek
+Gigantes Plaki,Baked giant beans in tomato sauce,380,9.99,Greek
+Spanakopita Triangles,Spinach and feta filo pastry pieces,420,9.49,Greek
+Bifteki Stuffed Burgers,Greek-style beef patties with cheese filling,680,14.49,Greek
+Grilled Octopus,Charred octopus with lemon and olive oil,420,18.49,Greek
+Calamari with Lemon,Fried squid rings with garlic dip,480,12.49,Greek
+Horiatiki Flatbread,Flatbread topped with tomatoes and feta,380,10.49,Greek
+Chicken Lemonato,Roasted chicken with lemon and potatoes,640,14.49,Greek
+Greek Meatballs Keftedes,Fried meatballs with herbs and spices,520,11.99,Greek
+Baklava Slice,Layered filo pastry with nuts and honey syrup,380,6.99,Greek
+Galaktoboureko,Custard-filled filo pastry with syrup,360,7.49,Greek
+Loukoumades,Greek honey-soaked doughnut bites,340,6.99,Greek
+Yogurt with Honey and Nuts,Greek yogurt topped with honey and walnuts,280,6.49,Greek
+Stuffed Peppers and Tomatoes,Vegetables filled with rice and herbs,460,11.49,Greek
+Fava Santorini,Yellow split pea puree with onions and capers,260,8.99,Greek
+Grilled Lamb Chops,Charcoal-grilled lamb chops with herbs,780,21.99,Greek
+Greek Fries with Feta,Seasoned fries topped with crumbled feta,420,7.99,Greek
+Chicken Orzo Soup,Light chicken soup with orzo pasta,260,7.49,Greek
+Halva Semolina Dessert,Sweet semolina pudding with nuts and spices,320,6.99,Greek
+Feijoada,Black bean stew with pork and sausage,780,16.49,Brazilian
+Picanha Steak,Grilled top sirloin cap with garlic,820,22.99,Brazilian
+Moqueca de Peixe,Coconut fish stew with peppers and cilantro,640,18.49,Brazilian
+Coxinha Chicken Croquettes,Fried dough filled with shredded chicken,420,8.99,Brazilian
+Pão de Queijo Basket,Chewy Brazilian cheese bread balls,320,7.49,Brazilian
+Churrasco Mixed Grill,Assorted grilled meats Brazilian style,900,24.99,Brazilian
+Frango Grelhado,Grilled chicken breast with herbs,620,14.49,Brazilian
+Linguiça Sausage Plate,Grilled Brazilian sausage with farofa,700,15.99,Brazilian
+Vatapá Shrimp Stew,"Shrimp stew with bread, peanuts, and coconut",620,17.49,Brazilian
+Arroz e Feijão,White rice served with seasoned black beans,420,9.49,Brazilian
+Farofa Toasted Cassava Flour,Toasted cassava flour with bacon bits,260,6.99,Brazilian
+Bolinhos de Bacalhau,Codfish fritters with parsley and potato,380,9.99,Brazilian
+Pastel de Carne,Fried pastry stuffed with seasoned beef,420,8.99,Brazilian
+Salada de Palmito,Heart of palm salad with tomatoes,260,10.49,Brazilian
+Escondidinho de Carne Seca,Creamy mashed cassava over dried beef,680,16.99,Brazilian
+Açaí Bowl Tradicional,Frozen açaí topped with granola and banana,380,9.99,Brazilian
+Brigadeiro Truffles,Chocolate fudge truffles rolled in sprinkles,260,5.99,Brazilian
+Quindim,Baked coconut and egg yolk dessert,300,6.49,Brazilian
+Mousse de Maracujá,Passion fruit mousse dessert,280,6.99,Brazilian
+Feijão Tropeiro,"Beans sautéed with sausage, bacon, and eggs",720,15.49,Brazilian
+Carne de Sol com Mandioca,Salted beef with boiled cassava,690,17.49,Brazilian
+Moela de Frango Guisada,Stewed chicken gizzards with spices,540,13.99,Brazilian
+Caldo Verde Brasileiro,Green soup with collards and sausage,320,9.49,Brazilian
+Empadão de Frango,Savory chicken pie with flaky crust,640,13.99,Brazilian
+Tapioca Crepe de Coco,Tapioca crepe filled with coconut and cheese,360,8.49,Brazilian
+Salpicão de Frango,Brazilian chicken salad with veggies and mayo,480,11.49,Brazilian
+Bife Acebolado,Pan-fried steak with caramelized onions,720,16.49,Brazilian
+Doce de Leite Flan,Creamy caramel milk flan,340,6.99,Brazilian
+Romeu e Julieta,Guava paste served with cheese,280,5.99,Brazilian
+Caipirinha Mocktail,Lime and sugar non-alcoholic refresher,160,4.99,Brazilian
+Adana Kebab,Spicy minced lamb skewer with grilled peppers,720,16.49,Turkish
+Iskender Kebab,Doner meat over bread with tomato and yogurt,780,17.49,Turkish
+Doner Kebab Wrap,Thinly sliced meat in flatbread with salad,620,11.99,Turkish
+Lahmacun,Thin Turkish flatbread topped with minced meat,540,10.49,Turkish
+Pide with Cheese,Boat-shaped flatbread with melted cheese,580,11.49,Turkish
+Menemen,Scrambled eggs with tomatoes and peppers,380,9.49,Turkish
+Mercimek Çorbası,Red lentil soup with lemon,260,7.49,Turkish
+Kuru Fasulye,White bean stew in tomato sauce,420,9.99,Turkish
+Pilav Rice Side,Buttery Turkish rice with vermicelli,260,5.49,Turkish
+Sigara Böreği,Crispy pastry rolls filled with feta cheese,320,8.49,Turkish
+Köfte Meatballs,Grilled spiced meat patties,580,13.49,Turkish
+Tavuk Şiş,Marinated chicken skewers with rice,620,14.49,Turkish
+Hünkâr Beğendi,Lamb stew served over smoked eggplant puree,690,18.49,Turkish
+Imam Bayıldı,Stuffed eggplant with onion and tomato,420,11.49,Turkish
+Ezme Salad,Spicy mashed tomato and pepper salad,220,7.99,Turkish
+Gözleme with Spinach and Cheese,Griddled flatbread with spinach and feta,480,10.99,Turkish
+Dolma Stuffed Peppers,Peppers filled with rice and spices,460,11.49,Turkish
+Kumpir Stuffed Baked Potato,Loaded baked potato with various fillings,640,10.99,Turkish
+Baklava Pistachio Slice,Layered pastry with pistachios and syrup,380,6.99,Turkish
+Künefe,Sweet cheese pastry soaked in syrup,420,7.99,Turkish
+Sütlaç Rice Pudding,Oven-baked rice pudding with cinnamon,310,6.49,Turkish
+Revani Semolina Cake,Citrus-flavored semolina cake with syrup,320,6.49,Turkish
+Simit Sesame Bread Ring,Chewy sesame-crusted bread ring,280,4.49,Turkish
+Turkish Breakfast Plate,"Assortment of cheese, olives, egg, and bread",540,14.49,Turkish
+Acılı Ezme Meze,Spicy tomato and pepper dip with olive oil,230,7.99,Turkish
+Bulgur Pilaf,Cracked wheat pilaf with tomato and peppers,320,7.99,Turkish
+Çoban Salad,"Shepherd’s salad with tomato, cucumber, and onion",260,8.49,Turkish
+Manti Turkish Dumplings,Small dumplings with yogurt and butter sauce,540,13.99,Turkish
+Tantuni Wrap,Thinly sliced sautéed beef in lavash,560,11.99,Turkish
+Turkish Delight Selection,Assorted soft sugar-dusted confections,260,5.99,Turkish

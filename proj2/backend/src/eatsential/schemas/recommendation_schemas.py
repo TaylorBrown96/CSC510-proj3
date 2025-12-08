@@ -39,8 +39,6 @@ class RecommendationRequest(BaseModel):
 
 
 class RecommendedItem(BaseModel):
-    """Single recommended menu item or restaurant with explanation."""
-
     model_config = ConfigDict(from_attributes=True)
 
     item_id: str
@@ -49,6 +47,11 @@ class RecommendedItem(BaseModel):
     explanation: str
     price: Optional[float] = None
     calories: Optional[float] = None
+
+    # NEW FIELDS
+    restaurant_name: Optional[str] = None
+    restaurant_address: Optional[str] = None
+    restaurant_place_id: Optional[str] = None  # Google Places place_id for direct map lookup
 
 
 class RecommendationResponse(BaseModel):

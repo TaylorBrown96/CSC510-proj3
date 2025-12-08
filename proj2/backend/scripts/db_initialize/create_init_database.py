@@ -79,7 +79,8 @@ def seed_data():
         # Import seeding functions
         from create_admin_user import create_admin_user
         from init_allergens import init_allergens
-        from seed_restaurants import main as seed_restaurants_main
+        # NOTE: Restaurant seeding is handled separately via Google Places API and CSV data
+        # from seed_restaurants import main as seed_restaurants_main
         from seed_wellness_logs import seed_wellness_logs
 
         # 1. Create admin user
@@ -94,9 +95,9 @@ def seed_data():
         print("\n2️⃣  Seeding allergens...")
         init_allergens()
 
-        # 3. Seed restaurants
-        print("\n3️⃣  Seeding restaurants...")
-        seed_restaurants_main()
+        # 3. Seed restaurants - SKIPPED (using Google Places + CSV instead)
+        print("\n3️⃣  Skipping placeholder restaurant data...")
+        print("   (Real restaurants will be seeded from Google Places API + CSV)")
 
         # 4. Seed wellness logs for admin user
         print("\n4️⃣  Seeding wellness logs...")
