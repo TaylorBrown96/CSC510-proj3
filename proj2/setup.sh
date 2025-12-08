@@ -81,19 +81,15 @@ else
     exit 1
 fi
 
-# Check for Python (python3 OR python)
+# Check for Python
 if command_exists python3; then
-    PYTHON_CMD="python3"
-elif command_exists python; then
-    PYTHON_CMD="python"
+    PYTHON_VERSION=$(python3 --version | awk '{print $2}')
+    print_success "Python is installed (version: $PYTHON_VERSION)"
 else
     print_error "Python 3 is not installed"
     print_info "Please install Python 3.9 or later"
     exit 1
 fi
-
-PYTHON_VERSION=$($PYTHON_CMD --version | awk '{print $2}')
-print_success "Python is installed (version: $PYTHON_VERSION)"
 
 echo ""
 print_success "All prerequisites are satisfied!"
@@ -139,30 +135,6 @@ if bun install; then
 else
     print_error "Failed to install frontend dependencies"
     exit 1
-fi
-
-echo ""
-
-# Step 4a: Configure frontend environment with Google Maps API key
-print_info "Configuring frontend environment..."
-cd "$PROJECT_ROOT/frontend"
-
-# Extract Google Maps API key from backend .env
-if [ -f "$PROJECT_ROOT/backend/.env" ]; then
-    GOOGLE_MAPS_API_KEY=$(grep "^GOOGLE_MAPS_API_KEY=" "$PROJECT_ROOT/backend/.env" | cut -d '=' -f 2)
-    
-    if [ -n "$GOOGLE_MAPS_API_KEY" ]; then
-        # Create or update .env.local with the API key
-        cat > .env.local << EOF
-# Google Maps API Key for frontend embeds
-VITE_GOOGLE_MAPS_API_KEY=$GOOGLE_MAPS_API_KEY
-EOF
-        print_success "Frontend .env.local configured with Google Maps API key"
-    else
-        print_warning "Google Maps API key not found in backend .env, skipping frontend config"
-    fi
-else
-    print_warning "Backend .env not found, skipping frontend Google Maps configuration"
 fi
 
 echo ""
@@ -244,8 +216,6 @@ else
     print_error "Failed to seed database"
     exit 1
 fi
-
-echo ""
 
 # Seed restaurants from Google Places
 print_info "Seeding restaurants from Google Places API..."
