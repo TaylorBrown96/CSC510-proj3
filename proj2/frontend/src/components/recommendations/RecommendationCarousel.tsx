@@ -257,8 +257,17 @@ interface Props {
 }
 
 export default function RecommendationMapPreview({ restaurant, placeId }: Props) {
+  // Debug logging
+  console.log('[RecommendationMapPreview] Input:', { restaurant, placeId });
+  
   // If we have place_id, use it directly (most reliable)
-  if (placeId) {
+  if (placeId && placeId.trim().length > 0) {
+    console.log('[RecommendationMapPreview] Using placeId:', placeId);
+    const mapUrl = `https://www.google.com/maps/embed/v1/place?key=${
+      import.meta.env.VITE_GOOGLE_MAPS_API_KEY
+    }&q=place_id:${placeId}`;
+    console.log('[RecommendationMapPreview] Map URL:', mapUrl);
+    
     return (
       <div className="mt-3 space-y-2">
         <div className="flex items-center gap-1 text-xs text-muted-foreground">
@@ -272,9 +281,7 @@ export default function RecommendationMapPreview({ restaurant, placeId }: Props)
           loading="lazy"
           allowFullScreen
           className="rounded-md border"
-          src={`https://www.google.com/maps/embed/v1/place?key=${
-            import.meta.env.VITE_GOOGLE_MAPS_API_KEY
-          }&q=place_id:${placeId}`}
+          src={mapUrl}
         />
 
         <a
@@ -291,15 +298,27 @@ export default function RecommendationMapPreview({ restaurant, placeId }: Props)
 
   // Fallback: search by restaurant name if place_id not available
   if (!restaurant || !isValidRestaurantName(restaurant)) {
+    console.log('[RecommendationMapPreview] Invalid or missing restaurant name:', restaurant);
     return null;
   }
   
+  console.log('[RecommendationMapPreview] Searching for restaurant:', restaurant);
   const { data } = useGooglePlaceSearch(restaurant);
+  console.log('[RecommendationMapPreview] Search result:', data);
 
   // Normalize: backend may return an array OR an object
   const place = Array.isArray(data) ? data[0] : data;
+  console.log('[RecommendationMapPreview] Place data:', place);
 
-  if (!place) return null;
+  if (!place || !place.place_id || place.place_id.trim().length === 0) {
+    console.log('[RecommendationMapPreview] No valid place_id found');
+    return null;
+  }
+
+  const mapUrl = `https://www.google.com/maps/embed/v1/place?key=${
+    import.meta.env.VITE_GOOGLE_MAPS_API_KEY
+  }&q=place_id:${place.place_id}`;
+  console.log('[RecommendationMapPreview] Fallback Map URL:', mapUrl);
 
   return (
     <div className="mt-3 space-y-2">
@@ -314,9 +333,7 @@ export default function RecommendationMapPreview({ restaurant, placeId }: Props)
         loading="lazy"
         allowFullScreen
         className="rounded-md border"
-        src={`https://www.google.com/maps/embed/v1/place?key=${
-          import.meta.env.VITE_GOOGLE_MAPS_API_KEY
-        }&q=place_id:${place.place_id}`}
+        src={mapUrl}
       />
 
       <a
