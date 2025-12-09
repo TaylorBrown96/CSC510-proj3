@@ -20,7 +20,7 @@ Eatsential is a LLM-powered platform that connects users to food options with un
 
 <div align="center">
   
-[![Eatsential Demo Video](https://img.youtube.com/vi/K2KGYuvrB_Y/maxresdefault.jpg)](https://youtu.be/K2KGYuvrB_Y)
+[![Eatsential Demo Video](https://img.youtube.com/vi/K2KGYuvrB_Y/maxresdefault.jpg)](https://www.youtube.com/watch?v=e7X4B4Syh70)
 
 **[▶️ Watch on YouTube](https://youtu.be/K2KGYuvrB_Y)** | 2 minutes
 
